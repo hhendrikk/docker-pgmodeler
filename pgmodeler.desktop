@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PGModeler
+Exec=bash -c "xhost si:localuser:root && docker start docker-pgmodeler-pgmodeler-1"
+Icon=/home/hhendrikk/docker/docker-pgmodeler/pgmodeler.png
+Type=Application
+Terminal=false
