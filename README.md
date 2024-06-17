@@ -7,3 +7,6 @@ Working only with X11 server.
 docker compose up -d 
 
 ./data - folder with data /home/root/projects container
+
+# Permission root to X11 Server
+xhost si:localuser:root
