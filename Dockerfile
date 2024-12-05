@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-ENV PG_VERSION 1.1.3
+ENV PG_VERSION 1.1.5
 
 ADD https://codeload.github.com/pgmodeler/pgmodeler/tar.gz/v${PG_VERSION} /usr/local/src/
 WORKDIR /usr/local/src/
